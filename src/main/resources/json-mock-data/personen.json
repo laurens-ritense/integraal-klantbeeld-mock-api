@@ -1,0 +1,137 @@
+[
+  {
+    "voornaam": "Jan",
+    "tussenvoegsel": "van",
+    "achternaam": "Dijk",
+    "geboortedatum": "1985-03-15",
+    "bsn": "123456789",
+    "woonplaats": "Amsterdam",
+    "contactgegevens": "jan.vandijk@example.com"
+  },
+  {
+    "voornaam": "Marie",
+    "tussenvoegsel": "de",
+    "achternaam": "Vries",
+    "geboortedatum": "1990-07-20",
+    "bsn": "987654321",
+    "woonplaats": "Rotterdam",
+    "contactgegevens": "marie.devries@example.com"
+  },
+  {
+    "voornaam": "Peter",
+    "tussenvoegsel": "",
+    "achternaam": "Jansen",
+    "geboortedatum": "1978-01-30",
+    "bsn": "456789123",
+    "woonplaats": "Utrecht",
+    "contactgegevens": "peter.jansen@example.com"
+  },
+  {
+    "voornaam": "Linda",
+    "tussenvoegsel": "van der",
+    "achternaam": "Meer",
+    "geboortedatum": "1982-11-05",
+    "bsn": "321654987",
+    "woonplaats": "The Hague",
+    "contactgegevens": "linda.vandermeer@example.com"
+  },
+  {
+    "voornaam": "Sven",
+    "tussenvoegsel": "",
+    "achternaam": "Klaassen",
+    "geboortedatum": "1995-06-18",
+    "bsn": "654987321",
+    "woonplaats": "Eindhoven",
+    "contactgegevens": "sven.klaassen@example.com"
+  },
+  {
+    "voornaam": "Anna",
+    "tussenvoegsel": "van",
+    "achternaam": "Dam",
+    "geboortedatum": "1988-12-12",
+    "bsn": "789123456",
+    "woonplaats": "Groningen",
+    "contactgegevens": "anna.vandam@example.com"
+  },
+  {
+    "voornaam": "Mark",
+    "tussenvoegsel": "de",
+    "achternaam": "Boer",
+    "geboortedatum": "1975-08-25",
+    "bsn": "159753486",
+    "woonplaats": "Tilburg",
+    "contactgegevens": "mark.deboer@example.com"
+  },
+  {
+    "voornaam": "Emma",
+    "tussenvoegsel": "",
+    "achternaam": "Visser",
+    "geboortedatum": "2000-04-14",
+    "bsn": "258369147",
+    "woonplaats": "Almere",
+    "contactgegevens": "emma.visser@example.com"
+  },
+  {
+    "voornaam": "Tom",
+    "tussenvoegsel": "van der",
+    "achternaam": "Berg",
+    "geboortedatum": "1984-09-09",
+    "bsn": "369258741",
+    "woonplaats": "Breda",
+    "contactgegevens": "tom.vanderberg@example.com"
+  },
+  {
+    "voornaam": "Sophie",
+    "tussenvoegsel": "",
+    "achternaam": "Hendriks",
+    "geboortedatum": "1992-02-27",
+    "bsn": "741852963",
+    "woonplaats": "Nijmegen",
+    "contactgegevens": "sophie.hendriks@example.com"
+  },
+  {
+    "voornaam": "David",
+    "tussenvoegsel": "de",
+    "achternaam": "Graaf",
+    "geboortedatum": "1987-05-23",
+    "bsn": "963852741",
+    "woonplaats": "Enschede",
+    "contactgegevens": "david.degraaf@example.com"
+  },
+  {
+    "voornaam": "Lisa",
+    "tussenvoegsel": "van",
+    "achternaam": "Loon",
+    "geboortedatum": "1991-10-02",
+    "bsn": "147258369",
+    "woonplaats": "Arnhem",
+    "contactgegevens": "lisa.vanloon@example.com"
+  },
+  {
+    "voornaam": "Frank",
+    "tussenvoegsel": "",
+    "achternaam": "Kuipers",
+    "geboortedatum": "1980-03-11",
+    "bsn": "258147369",
+    "woonplaats": "Haarlem",
+    "contactgegevens": "frank.kuipers@example.com"
+  },
+  {
+    "voornaam": "Eva",
+    "tussenvoegsel": "de",
+    "achternaam": "Bruin",
+    "geboortedatum": "1994-07-07",
+    "bsn": "369741852",
+    "woonplaats": "Leiden",
+    "contactgegevens": "eva.debruin@example.com"
+  },
+  {
+    "voornaam": "John",
+    "tussenvoegsel": "van der",
+    "achternaam": "Heijden",
+    "geboortedatum": "1983-11-21",
+    "bsn": "852963741",
+    "woonplaats": "Maastricht",
+    "contactgegevens": "john.vanderheijden@example.com"
+  }
+]

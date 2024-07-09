@@ -1,0 +1,272 @@
+[
+  {
+    "kenteken": "AB-123-CD",
+    "merk": "Volkswagen",
+    "model": "Golf",
+    "bouwjaar": "2019",
+    "kleur": "Blauw",
+    "brandstof": "Benzine",
+    "eigenaar": {
+      "voornaam": "Jan",
+      "tussenvoegsel": "van",
+      "achternaam": "Dijk",
+      "geboortedatum": "1985-03-15",
+      "bsn": "123456789",
+      "woonplaats": "Amsterdam",
+      "contactgegevens": "jan.vandijk@example.com"
+    },
+    "apk_vervaldatum": "2024-05-30"
+  },
+  {
+    "kenteken": "EF-456-GH",
+    "merk": "Toyota",
+    "model": "Corolla",
+    "bouwjaar": "2018",
+    "kleur": "Rood",
+    "brandstof": "Benzine",
+    "eigenaar": {
+      "voornaam": "Marie",
+      "tussenvoegsel": "de",
+      "achternaam": "Vries",
+      "geboortedatum": "1990-07-20",
+      "bsn": "987654321",
+      "woonplaats": "Rotterdam",
+      "contactgegevens": "marie.devries@example.com"
+    },
+    "apk_vervaldatum": "2023-09-15"
+  },
+  {
+    "kenteken": "IJ-789-KL",
+    "merk": "Ford",
+    "model": "Focus",
+    "bouwjaar": "2020",
+    "kleur": "Zwart",
+    "brandstof": "Diesel",
+    "eigenaar": {
+      "voornaam": "Peter",
+      "tussenvoegsel": "",
+      "achternaam": "Jansen",
+      "geboortedatum": "1978-01-30",
+      "bsn": "456789123",
+      "woonplaats": "Utrecht",
+      "contactgegevens": "peter.jansen@example.com"
+    },
+    "apk_vervaldatum": "2025-11-20"
+  },
+  {
+    "kenteken": "MN-012-OP",
+    "merk": "BMW",
+    "model": "3 Series",
+    "bouwjaar": "2021",
+    "kleur": "Wit",
+    "brandstof": "Benzine",
+    "eigenaar": {
+      "voornaam": "Linda",
+      "tussenvoegsel": "van der",
+      "achternaam": "Meer",
+      "geboortedatum": "1982-11-05",
+      "bsn": "321654987",
+      "woonplaats": "The Hague",
+      "contactgegevens": "linda.vandermeer@example.com"
+    },
+    "apk_vervaldatum": "2026-03-12"
+  },
+  {
+    "kenteken": "QR-345-ST",
+    "merk": "Mercedes",
+    "model": "C-Class",
+    "bouwjaar": "2017",
+    "kleur": "Grijs",
+    "brandstof": "Diesel",
+    "eigenaar": {
+      "voornaam": "Sven",
+      "tussenvoegsel": "",
+      "achternaam": "Klaassen",
+      "geboortedatum": "1995-06-18",
+      "bsn": "654987321",
+      "woonplaats": "Eindhoven",
+      "contactgegevens": "sven.klaassen@example.com"
+    },
+    "apk_vervaldatum": "2023-12-25"
+  },
+  {
+    "kenteken": "UV-678-WX",
+    "merk": "Audi",
+    "model": "A4",
+    "bouwjaar": "2016",
+    "kleur": "Groen",
+    "brandstof": "Benzine",
+    "eigenaar": {
+      "voornaam": "Anna",
+      "tussenvoegsel": "van",
+      "achternaam": "Dam",
+      "geboortedatum": "1988-12-12",
+      "bsn": "789123456",
+      "woonplaats": "Groningen",
+      "contactgegevens": "anna.vandam@example.com"
+    },
+    "apk_vervaldatum": "2024-08-30"
+  },
+  {
+    "kenteken": "YZ-901-AB",
+    "merk": "Volvo",
+    "model": "XC60",
+    "bouwjaar": "2020",
+    "kleur": "Blauw",
+    "brandstof": "Benzine",
+    "eigenaar": {
+      "voornaam": "Mark",
+      "tussenvoegsel": "de",
+      "achternaam": "Boer",
+      "geboortedatum": "1975-08-25",
+      "bsn": "159753486",
+      "woonplaats": "Tilburg",
+      "contactgegevens": "mark.deboer@example.com"
+    },
+    "apk_vervaldatum": "2025-07-19"
+  },
+  {
+    "kenteken": "CD-234-EF",
+    "merk": "Honda",
+    "model": "Civic",
+    "bouwjaar": "2019",
+    "kleur": "Rood",
+    "brandstof": "Benzine",
+    "eigenaar": {
+      "voornaam": "Emma",
+      "tussenvoegsel": "",
+      "achternaam": "Visser",
+      "geboortedatum": "2000-04-14",
+      "bsn": "258369147",
+      "woonplaats": "Almere",
+      "contactgegevens": "emma.visser@example.com"
+    },
+    "apk_vervaldatum": "2023-10-12"
+  },
+  {
+    "kenteken": "GH-567-IJ",
+    "merk": "Mazda",
+    "model": "CX-5",
+    "bouwjaar": "2018",
+    "kleur": "Zilver",
+    "brandstof": "Benzine",
+    "eigenaar": {
+      "voornaam": "Tom",
+      "tussenvoegsel": "van der",
+      "achternaam": "Berg",
+      "geboortedatum": "1984-09-09",
+      "bsn": "369258741",
+      "woonplaats": "Breda",
+      "contactgegevens": "tom.vanderberg@example.com"
+    },
+    "apk_vervaldatum": "2024-06-14"
+  },
+  {
+    "kenteken": "KL-890-MN",
+    "merk": "Hyundai",
+    "model": "Tucson",
+    "bouwjaar": "2017",
+    "kleur": "Wit",
+    "brandstof": "Diesel",
+    "eigenaar": {
+      "voornaam": "Sophie",
+      "tussenvoegsel": "",
+      "achternaam": "Hendriks",
+      "geboortedatum": "1992-02-27",
+      "bsn": "741852963",
+      "woonplaats": "Nijmegen",
+      "contactgegevens": "sophie.hendriks@example.com"
+    },
+    "apk_vervaldatum": "2023-11-22"
+  },
+  {
+    "kenteken": "OP-123-QR",
+    "merk": "Kia",
+    "model": "Sportage",
+    "bouwjaar": "2021",
+    "kleur": "Grijs",
+    "brandstof": "Benzine",
+    "eigenaar": {
+      "voornaam": "David",
+      "tussenvoegsel": "de",
+      "achternaam": "Graaf",
+      "geboortedatum": "1987-05-23",
+      "bsn": "963852741",
+      "woonplaats": "Enschede",
+      "contactgegevens": "david.degraaf@example.com"
+    },
+    "apk_vervaldatum": "2025-02-15"
+  },
+  {
+    "kenteken": "ST-456-UV",
+    "merk": "Renault",
+    "model": "Clio",
+    "bouwjaar": "2016",
+    "kleur": "Blauw",
+    "brandstof": "Benzine",
+    "eigenaar": {
+      "voornaam": "Lisa",
+      "tussenvoegsel": "van",
+      "achternaam": "Loon",
+      "geboortedatum": "1991-10-02",
+      "bsn": "147258369",
+      "woonplaats": "Arnhem",
+      "contactgegevens": "lisa.vanloon@example.com"
+    },
+    "apk_vervaldatum": "2024-01-28"
+  },
+  {
+    "kenteken": "WX-789-YZ",
+    "merk": "Peugeot",
+    "model": "208",
+    "bouwjaar": "2015",
+    "kleur": "Zwart",
+    "brandstof": "Diesel",
+    "eigenaar": {
+      "voornaam": "Frank",
+      "tussenvoegsel": "",
+      "achternaam": "Kuipers",
+      "geboortedatum": "1980-03-11",
+      "bsn": "258147369",
+      "woonplaats": "Haarlem",
+      "contactgegevens": "frank.kuipers@example.com"
+    },
+    "apk_vervaldatum": "2023-05-17"
+  },
+  {
+    "kenteken": "YZ-901-AB",
+    "merk": "Skoda",
+    "model": "Octavia",
+    "bouwjaar": "2018",
+    "kleur": "Groen",
+    "brandstof": "Benzine",
+    "eigenaar": {
+      "voornaam": "Eva",
+      "tussenvoegsel": "de",
+      "achternaam": "Bruin",
+      "geboortedatum": "1994-07-07",
+      "bsn": "369741852",
+      "woonplaats": "Leiden",
+      "contactgegevens": "eva.debruin@example.com"
+    },
+    "apk_vervaldatum": "2023-09-10"
+  },
+  {
+    "kenteken": "AB-234-CD",
+    "merk": "Seat",
+    "model": "Leon",
+    "bouwjaar": "2021",
+    "kleur": "Rood",
+    "brandstof": "Diesel",
+    "eigenaar": {
+      "voornaam": "John",
+      "tussenvoegsel": "van der",
+      "achternaam": "Heijden",
+      "geboortedatum": "1983-11-21",
+      "bsn": "852963741",
+      "woonplaats": "Maastricht",
+      "contactgegevens": "john.vanderheijden@example.com"
+    },
+    "apk_vervaldatum": "2026-11-01"
+  }
+]

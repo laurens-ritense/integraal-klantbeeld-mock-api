@@ -1,0 +1,22 @@
+[
+  {
+    "id":"2c4d2d13-14f7-4c18-8331-737813393514",
+    "key":"financieel",
+    "title":"Financieel",
+    "zaaktypen": [
+      "zaaktype-1",
+      "zaaktype-2",
+      "zaaktype-4"
+    ]
+  },
+  {
+    "id":"5c4ad82e-92bc-41c8-873e-c592881015cc",
+    "key":"kinderopvang",
+    "title":"Kinderopvang",
+    "zaaktypen": [
+      "zaaktype-1",
+      "zaaktype-3",
+      "zaaktype-6"
+    ]
+  }
+]
