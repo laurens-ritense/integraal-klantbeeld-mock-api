@@ -12,91 +12,81 @@ import java.util.UUID
 
 @RestController
 class ApiResource {
+    private val mapper = jacksonObjectMapper()
+
     @GetMapping("/thema")
-    fun getThemas(): String {
+    fun getThemas(): List<Thema> {
         val resource = ClassPathResource("json-mock-data/themas.json")
         val file = resource.inputStream
         val content = FileCopyUtils.copyToByteArray(file)
-        return String(content, StandardCharsets.UTF_8)
+        return mapper.readValue<List<Thema>>(content)
     }
 
     @GetMapping("/thema/{id}")
-    fun getThema(@PathVariable id: UUID): String {
+    fun getThema(@PathVariable id: UUID): Thema {
         val resource = ClassPathResource("json-mock-data/themas.json")
         val file = resource.inputStream
         val content = FileCopyUtils.copyToByteArray(file)
         val json = String(content, StandardCharsets.UTF_8)
 
-        val mapper = jacksonObjectMapper()
-        val thema = mapper.readValue<List<Thema>>(json).find { it.id == id }
+        return mapper.readValue<List<Thema>>(json).find { it.id == id }
             ?: throw NoSuchElementException("Thema with id $id not found")
-
-        return mapper.writeValueAsString(thema)
     }
 
     @GetMapping("/klant")
-    fun getKlanten(): String {
+    fun getKlanten(): List<Klant> {
         val resource = ClassPathResource("json-mock-data/klanten.json")
         val file = resource.inputStream
         val content = FileCopyUtils.copyToByteArray(file)
-        return String(content, StandardCharsets.UTF_8)
+        return mapper.readValue<List<Klant>>(content)
     }
 
     @GetMapping("/klant/{id}")
-    fun getKlant(@PathVariable id: UUID): String {
+    fun getKlant(@PathVariable id: UUID): Klant {
         val resource = ClassPathResource("json-mock-data/klanten.json")
         val file = resource.inputStream
         val content = FileCopyUtils.copyToByteArray(file)
         val json = String(content, StandardCharsets.UTF_8)
 
-        val mapper = jacksonObjectMapper()
-        val klant = mapper.readValue<List<Klant>>(json).find { it.uuid == id }
+        return mapper.readValue<List<Klant>>(json).find { it.uuid == id }
             ?: throw NoSuchElementException("Klant with id $id not found")
-
-        return mapper.writeValueAsString(klant)
     }
 
     @GetMapping("/persoon")
-    fun getPersonen(): String {
+    fun getPersonen(): List<Persoon> {
         val resource = ClassPathResource("json-mock-data/personen.json")
         val file = resource.inputStream
         val content = FileCopyUtils.copyToByteArray(file)
-        return String(content, StandardCharsets.UTF_8)
+        return mapper.readValue<List<Persoon>>(content)
     }
 
     @GetMapping("/persoon/{bsn}")
-    fun getPersoon(@PathVariable bsn: Long): String {
+    fun getPersoon(@PathVariable bsn: Long): Persoon {
         val resource = ClassPathResource("json-mock-data/personen.json")
         val file = resource.inputStream
         val content = FileCopyUtils.copyToByteArray(file)
         val json = String(content, StandardCharsets.UTF_8)
 
-        val mapper = jacksonObjectMapper()
-        val klant = mapper.readValue<List<Persoon>>(json).find { it.bsn == bsn }
+        return mapper.readValue<List<Persoon>>(json).find { it.bsn == bsn }
             ?: throw NoSuchElementException("Persoon with bsn $bsn not found")
-
-        return mapper.writeValueAsString(klant)
     }
 
     @GetMapping("/voertuigen/persoon")
-    fun getVoertuigen(): String {
+    fun getVoertuigen(): List<Voertuig> {
         val resource = ClassPathResource("json-mock-data/voertuigen.json")
         val file = resource.inputStream
         val content = FileCopyUtils.copyToByteArray(file)
-        return String(content, StandardCharsets.UTF_8)
+        return mapper.readValue<List<Voertuig>>(content)
     }
 
     @GetMapping("/voertuigen/persoon/{bsn}")
-    fun getVoertuig(@PathVariable bsn: Long): String {
+    fun getVoertuig(@PathVariable bsn: Long): Voertuig {
         val resource = ClassPathResource("json-mock-data/voertuigen.json")
         val file = resource.inputStream
         val content = FileCopyUtils.copyToByteArray(file)
         val json = String(content, StandardCharsets.UTF_8)
 
-        val mapper = jacksonObjectMapper()
-        val klant = mapper.readValue<List<Voertuig>>(json).find { it.eigenaar.bsn == bsn }
+        return mapper.readValue<List<Voertuig>>(json).find { it.eigenaar.bsn == bsn }
             ?: throw NoSuchElementException("Voertuig with bsn $bsn not found")
-
-        return mapper.writeValueAsString(klant)
     }
 }
